@@ -1,0 +1,20 @@
+# Ignore OS/system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs
+*.log
+
+# Ignore node, vendor, dist if they exist
+node_modules/
+vendor/
+dist/
+
+# Ignore large media if not needed
+*.zip
+*.tar.gz
+*.mp4
+*.mov
+*.avi
+*.iso
+*.exe
